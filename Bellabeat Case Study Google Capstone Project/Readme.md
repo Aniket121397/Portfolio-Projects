@@ -27,6 +27,22 @@ Sršen asks you to analyze smart device usage data in order to gain insight into
 - How could these trends help influence Bellabeat marketing strategy?
 
 ## 2. Prepare
+To answer Bellabeat's business tasks I will be using [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit) (CC0: Public Domain, dataset made available through Mobius): This Kaggle data set contains personal fitness tracker from thirty fitbit users. Thirty eligible Fitbit users consented to the submission of personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring. It includes information about daily activity, steps, and heart rate that can be used to explore users’ habits.
+
+I have used  Excel Power Query Editor to merge multiple Excel files and Microsoft SQL Server Management Studio for this project to help process and analyze and for visualization I have used Tableau Public. In order to solve this business task, only 9 of the given 18 datasets were used.
+
+The following CSV files were focused on.
+- dailyActivity_merged
+- heartrate_seconds_merged
+- minutesMETsNarrow_merged
+- minuteSleep_merged
+- sleepDay_merged
+- weightLogInfo_merged
+- dailyCalories_merged
+- dailyIntensities_merged
+- dailySteps_merged
+
+The 3 CSV files - dailyCalories_merged , dailyIntensities_merged , dailySteps_merged were merged into 1 CSV file called as Hourly_activity using Excel Power Editor.
 
 
 

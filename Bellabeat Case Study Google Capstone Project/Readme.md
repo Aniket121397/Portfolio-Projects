@@ -233,3 +233,7 @@ Result-
 1. So, the highest average intensity is 21.92 and it was recorded during evening at 6 pm . This means that most people were active during 6pm.
 2. The least recorded is 0.44 and it was recorded was during 3am.
 
+## 5.Share
+
+## 6.Act
+

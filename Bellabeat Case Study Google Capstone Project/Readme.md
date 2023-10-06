@@ -125,3 +125,54 @@ SELECT
 
 FROM bellabeat.dbo.weightLogInfo
 ```
+## 4. Analyze
+### Summary
+Track user physical activities , heart rate , sleep and weight.  Also checked for their average , minimum , maximum values of steps , distance and calories . Also checked for the no. of users tracking various activities. 
+
+The following SQL code calculates the no. of users , averages , minimum and maximum value of physical activities.
+```
+--Calculating number of users and averages
+
+-- 1) Tracking their physical activities
+
+SELECT 
+	COUNT(DISTINCT(Id)) AS users_tracking_activity,
+	AVG(TotalSteps) AS average_steps,
+	AVG(TotalDistance) AS average_distance,
+	AVG(Calories) AS average_calories
+FROM bellabeat.dbo.daily_activity_cleaned
+
+--2) Tracking heart rate
+
+SELECT 
+	COUNT(DISTINCT(Id)) AS users_tracking_heartrate,
+	AVG(Value) AS average_heartrate,
+	MIN(Value) AS min_heartrate,
+	MAX(Value) AS max_heartrate
+FROM bellabeat.dbo.heartrate_seconds
+
+--3) Tracking Sleep
+
+SELECT 
+	COUNT(DISTINCT(Id)) AS users_tracking_sleep,
+	AVG(TotalMinutesAsleep)/60.0 AS avg_hours_sleep,
+	MIN(TotalMinutesAsleep)/60.0 AS min_hours_sleep,
+	MAX(TotalMinutesAsleep)/60.0 AS max_hours_sleep,
+	AVG(TotalTimeInBed)/60.0 AS average_hours_inBed
+
+FROM bellabeat.dbo.sleep_day
+
+--4) Tracking weight
+
+SELECT 
+	COUNT(DISTINCT(Id)) AS users_tracking_weight,
+	AVG(WeightKg) AS avg_weight,
+	MIN(Weightkg) AS min_weight,
+	MAX(WeightKg) AS max_weight
+FROM bellabeat.dbo.weight_cleaned
+```
+Result -
+1. The number of users tracking activity is 33 , average steps is 7637 , average distance is 5.48 km and average calories is 2303.69
+2. The number of users tracking heart rate is 14 , average heart rate is 77 , minimum heart rate is 36 and maximum heart rate is 203
+3. The number of users tracking sleep is 24 , average hours of sleep  is 6.9 , minimum hour of sleep is 0.9 , maximum hours of sleep is 13.2 and average hours in bed is 7.6
+4. The number of users tracking weight is 8 , avergae weight is 72.02 kg , minimum weight is 52.59 kg and maximum weight is 133.5 kg

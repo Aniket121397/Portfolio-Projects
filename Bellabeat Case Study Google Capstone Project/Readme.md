@@ -127,7 +127,8 @@ FROM bellabeat.dbo.weightLogInfo
 ```
 ## 4. Analyze
 ### Summary
-Track user physical activities , heart rate , sleep and weight.  Also checked for their average , minimum , maximum values of steps , distance and calories . Also checked for the no. of users tracking various activities. 
+1.Track user physical activities , heart rate , sleep and weight.  Also checked for their average , minimum , maximum values of steps , distance and calories . 
+  Also checked for the no. of users tracking various activities. 
 
 The following SQL code calculates the no. of users , averages , minimum and maximum value of physical activities.
 ```
@@ -177,7 +178,7 @@ Result -
 3. The number of users tracking sleep is 24 , average hours of sleep  is 6.9 , minimum hour of sleep is 0.9 , maximum hours of sleep is 13.2 and average hours in bed is 7.6
 4. The number of users tracking weight is 8 , avergae weight is 72.02 kg , minimum weight is 52.59 kg and maximum weight is 133.5 kg.
 
-Calculated the number of days the device was used by each user. Also , calculate the average time for each activity
+2. Calculated the number of days the device was used by each user. Also , calculate the average time spent for each activity
 ```
 --Calculate the number of days each user tracked physical activity
 
@@ -202,3 +203,33 @@ SELECT
 FROM	
 	bellabeat.dbo.daily_activity_cleaned
 ```
+Result - 
+1. The maximum number of users used the device for 31 days while the least the device was used was 4 days.
+2. The average of veryactiveminutes is 21 , fairlyactiveminutes is 13 , lightactive hours is 3.2 and sedentary hours is 16.5.
+
+3. Determine the time when users were mostly active. Calculate the average intensity for every hour . High intensity implies that more people are active during 
+   that time.
+
+```
+SELECT
+	DISTINCT (CAST(ActivityHour AS TIME)) AS activity_time,
+	AVG(TotalIntensity) OVER (PARTITION BY DATEPART(HOUR, ActivityHour)) AS average_intensity,
+	AVG(METs/10.0) OVER (PARTITION BY DATEPART(HOUR, ActivityHour)) AS average_METs
+
+FROM 
+	bellabeat.dbo.hourly_activity AS hourly_activity
+
+JOIN bellabeat.dbo.minuteMETsNarrow AS METs
+
+ON
+	hourly_activity.Id = METs.Id AND
+	hourly_activity.ActivityHour = METs.ActivityMinute
+
+
+ORDER BY
+	average_intensity DESC
+```
+Result- 
+1. So, the highest average intensity is 21.92 and it was recorded during evening at 6 pm . This means that most people were active during 6pm.
+2. The least recorded is 0.44 and it was recorded was during 3am.
+

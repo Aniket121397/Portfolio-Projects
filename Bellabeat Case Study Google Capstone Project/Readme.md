@@ -175,4 +175,30 @@ Result -
 1. The number of users tracking activity is 33 , average steps is 7637 , average distance is 5.48 km and average calories is 2303.69
 2. The number of users tracking heart rate is 14 , average heart rate is 77 , minimum heart rate is 36 and maximum heart rate is 203
 3. The number of users tracking sleep is 24 , average hours of sleep  is 6.9 , minimum hour of sleep is 0.9 , maximum hours of sleep is 13.2 and average hours in bed is 7.6
-4. The number of users tracking weight is 8 , avergae weight is 72.02 kg , minimum weight is 52.59 kg and maximum weight is 133.5 kg
+4. The number of users tracking weight is 8 , avergae weight is 72.02 kg , minimum weight is 52.59 kg and maximum weight is 133.5 kg.
+
+Calculated the number of days the device was used by each user. Also , calculate the average time for each activity
+```
+--Calculate the number of days each user tracked physical activity
+
+SELECT
+	DISTINCT Id,
+	COUNT(ActivityDate) OVER (PARTITION BY Id) AS days_activity_recorded
+
+FROM	
+	bellabeat.dbo.daily_activity_cleaned
+
+ORDER BY
+	days_activity_recorded DESC
+
+--Calculate average time for each activity
+
+SELECT
+	ROUND(AVG(VeryActiveMinutes),2) AS AverageVeryActiveMinutes,
+	ROUND(AVG(FairlyActiveMinutes),2) AS AverageFailyActiveMinutes,
+	ROUND(AVG(LightlyActiveMinutes)/60.0,2) AS AverageLightlyActiveHours,
+	ROUND(AVG(SedentaryMinutes)/60.0,2) AS AverageSedentaryHours
+
+FROM	
+	bellabeat.dbo.daily_activity_cleaned
+```

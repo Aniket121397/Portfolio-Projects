@@ -1,5 +1,5 @@
 # Case Study : Bellabeat Fitness Data Analysis 
-##### Author: Aniket121397
+##### Author: Aniket Panpatil
 
 ##### Date: October 4, 2023
 
@@ -44,5 +44,84 @@ The following CSV files were focused on.
 
 The 3 CSV files - dailyCalories_merged , dailyIntensities_merged , dailySteps_merged were merged into 1 CSV file called as Hourly_activity using Excel Power Editor.
 
+## 3. Process
+Examine the data , I found that the data in the daily_activity and weightLoginfo_merged were not in correct format to perform calculations. So I created a new table and using the CAST function converted all the required data formats into correct formats.
 
+For cleaning the daily_activity , I wrote the following code in Microsoft SSMS
+```
+IF EXISTS(SELECT *
+		   FROM bellabeat.dbo.daily_activity_cleaned)
 
+DROP TABLE bellabeat.dbo.daily_activity_cleaned
+		   
+CREATE TABLE bellabeat.dbo.daily_activity_cleaned
+(
+    ID FLOAT,
+    ActivityDate DATETIME2(7),
+    TotalSteps INT,
+    TotalDistance FLOAT,
+    VeryActiveDistance FLOAT,
+    ModeratelyActiveDistance FLOAT,
+    LightActiveDistance FLOAT,
+    SedentaryActiveDistance FLOAT,
+    VeryActiveMinutes INT,
+    FairlyActiveMinutes INT,
+    LightlyActiveMinutes INT,
+    SedentaryMinutes INT,
+    Calories FLOAT
+);
+
+INSERT INTO bellabeat.dbo.daily_activity_cleaned
+(
+    ID,
+    ActivityDate,
+    TotalSteps,
+    TotalDistance,
+    VeryActiveDistance,
+    ModeratelyActiveDistance,
+    LightActiveDistance,
+    SedentaryActiveDistance,
+    VeryActiveMinutes,
+    FairlyActiveMinutes,
+    LightlyActiveMinutes,
+    SedentaryMinutes,
+    Calories
+)
+SELECT
+    ID,
+    CAST(CONVERT(DATETIME2, ActivityDate, 101) AS DATETIME2) AS ActivityDate,
+    TotalSteps,
+    CAST(TotalDistance AS FLOAT) AS TotalDistance,
+    CAST(VeryActiveDistance AS FLOAT) AS VeryActiveDistance,
+    CAST(ModeratelyActiveDistance AS FLOAT) AS ModeratelyActiveDistance,
+    CAST(LightActiveDistance AS FLOAT) AS LightActiveDistance,
+    CAST(SedentaryActiveDistance AS FLOAT) AS SedentaryActiveDistance,
+    VeryActiveMinutes,
+    FairlyActiveMinutes,
+    LightlyActiveMinutes,
+    SedentaryMinutes,
+    Calories
+FROM
+    bellabeat.dbo.dailyActivity;
+```
+For weightLoginfo , I wrote the following code in Microsoft SSMS
+```
+IF EXISTS (SELECT * 
+		   FROM bellabeat.dbo.weight_cleaned)
+
+DROP TABLE bellabeat.dbo.weight_cleaned
+
+CREATE TABLE bellabeat.dbo.weight_cleaned
+( Id FLOAT , 
+  Date DATETIME2(7),
+  WeightKg FLOAT)
+  
+INSERT INTO bellabeat.dbo.weight_cleaned
+
+SELECT
+	Id,
+	Date,
+	WeightKg
+
+FROM bellabeat.dbo.weightLogInfo
+```

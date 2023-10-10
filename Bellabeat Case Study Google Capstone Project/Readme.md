@@ -244,4 +244,5 @@ Conclusion based on our analysis:
 - Users are mostly active at 6pm because at 6pm average steps per day is the highest while Monday is the mostly the day active for the users because they have 
   highest minutes of very active minutes.
 - Users love to track thier steps during weekdays , during Tuesday average steps per day is the highest while during Sunday is it the lowest because users tend 
-  to rest mostly during Sunday. 
+  to rest mostly during Sunday.
+- Most users are using devices for tracking sleep as compared to tracking heart rates and weight. 

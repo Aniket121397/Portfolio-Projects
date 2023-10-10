@@ -3,6 +3,8 @@
 
 ##### Date: October 4, 2023
 
+[Tableau Dashboard](https://public.tableau.com/app/profile/aniket.panpatil/viz/BellabeatCustomersTrendsDashboard/Dashboard1)
+
 _The case study follows the six step data analysis process:_
 
 ### ❓ [Ask](#1-ask)
@@ -234,6 +236,6 @@ Result-
 2. The least recorded is 0.44 and it was recorded was during 3am.
 
 ## 5.Share
-
+[Tableau Dashboard](https://public.tableau.com/app/profile/aniket.panpatil/viz/BellabeatCustomersTrendsDashboard/Dashboard1)
 ## 6.Act
 

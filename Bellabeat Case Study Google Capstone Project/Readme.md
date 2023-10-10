@@ -238,4 +238,10 @@ Result-
 ## 5.Share
 [Tableau Dashboard](https://public.tableau.com/app/profile/aniket.panpatil/viz/BellabeatCustomersTrendsDashboard/Dashboard1)
 ## 6.Act
-
+Conclusion based on our analysis:
+- Users have the highest average hours of sleep per day on Sunday and have the second highest average sedentary minutes. Users tend to rest and lazy more on 	 
+  Sunday as the sleep hours and sedentary minutes are highest.
+- Users are mostly active at 6pm because at 6pm average steps per day is the highest while Monday is the mostly the day active for the users because they have 
+  highest minutes of very active minutes.
+- Users love to track thier steps during weekdays , during Tuesday average steps per day is the highest while during Sunday is it the lowest because users tend 
+  to rest mostly during Sunday. 

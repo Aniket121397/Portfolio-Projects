@@ -1,0 +1,211 @@
+Employee_ID,Employee_Name,Gender,Position,Department,Hire_Date
+1,Judy Jones,Female,,Sales,2012-10-21
+2,Charlie Garcia,Female,Supervisor,Human Resources,2019-06-13
+3,Frank Jones,Male,Director,Human Resources,12/18/2013
+4,Eve Rodriguez,Female,Specialist,Finance,2010-12-18
+5,Alice Jones,Male,Specialist,Customer Service,04/16/2011
+6,Frank Martinez,Male,Clerk,Marketing,08/06/2023
+7,Judy Miller,Female,Director,Legal,2020-08-01
+8,Eve Jones,Male,,Finance,06/24/2021
+9,Grace Brown,Male,Assistant,Finance,2015-02-19
+10,Eve Smith,Male,Associate,IT,2021-04-09
+11,Heidi Williams,Male,Team Lead,,2017-12-31
+12,Bob Johnson,Male,,Marketing,2013-02-19
+13,Frank Davis,Male,,Customer Service,2022-08-15
+14,Bob Miller,Male,Team Lead,Customer Service,2015-11-20
+15,Bob Smith,Male,Associate,Operations,2020-04-17
+16,Frank Miller,Female,Assistant,Operations,2011-08-08
+17,Eve Miller,Male,Clerk,Marketing,09/28/2017
+18,Alice Miller,Other,Coordinator,Operations,2011-12-22
+19,Bob Miller,Male,Manager,Finance,2023-07-05
+20,Eve Davis,Male,,Human Resources,2016-06-21
+21,Charlie Rodriguez,Male,Team Lead,Customer Service,2014-02-25
+22,Judy Garcia,Female,Associate,Marketing,09/22/2023
+23,Charlie Williams,Female,Assistant,,2017-07-21
+24,Judy Williams,Female,coordinator,Marketing,2017-04-02
+25,Diana Davis,Other,Director,IT,25-Jul-14
+26,Eve Jones,Male,Specialist,Customer Service,2021-10-26
+27,Grace Johnson,Female,Specialist,Customer Service,2017-04-04
+28,Bob Jones,Female,Clerk,Human Resources,2019-02-19
+29,Alice Miller,Male,  Analyst  ,IT,04/30/2011
+30,Heidi Martinez,Other,Assistant,Human Resources,2015-12-10
+31,Grace Rodriguez,Other,associate,Sales,08/24/2012
+32,Alice Williams,Male,Team Lead,,2022-08-22
+33,Frank Garcia,Female,Manager,Operations,08-Sep-21
+34,Grace Jones,Male,Assistant,Human Resources,09/17/2011
+35,Diana Smith,Female,Assistant,Legal,2010-03-15
+36,Alice Smith,Male,Manager,IT,07/22/2017
+37,Grace Smith,Female,director,Operations,02/04/2022
+38,Ivan Brown,Female,Supervisor,Marketing,04/30/2019
+39,Bob Martinez,Male,Manager,Operations,2014-03-28
+40,Bob Johnson,Male,  Assistant  ,Sales,02/20/2010
+41,Ivan Martinez,Other,  Manager  ,IT,2023-03-31
+42,Eve Brown,Female,Team Lead,Marketing,07/22/2010
+43,Bob Martinez,Male,Team Lead,Marketing,2011-01-03
+44,Charlie Smith,Male,Manager,Legal,2022-02-16
+45,Judy Rodriguez,Male,Assistant,Operations,2015-11-02
+46,Eve Smith,Male,Manager,Legal,13-Jan-16
+47,Ivan Brown,Female,Clerk,IT,05-Sep-23
+48,Bob Rodriguez,Female,Associate,Sales,14-Aug-22
+49,Grace Jones,Female,Associate,Human Resources,2017-04-29
+50,Frank Jones,Female,Supervisor,Sales,2019-03-27
+51,Charlie Jones,Other,Analyst,Legal,01/17/2012
+52,Heidi Williams,Male,team lead,Legal,2018-06-24
+53,Bob Smith,Male,  Clerk  ,Legal,2023-06-20
+54,Frank Miller,Male,Director,IT,2017-08-30
+55,Ivan Rodriguez,Female,Associate,finance,2014-07-27
+56,Bob Davis,Female,Analyst,Legal,2023-11-21
+57,Eve Johnson,Male,Team Lead,Legal,11/05/2014
+58,Ivan Rodriguez,Female,,Customer Service,06/12/2012
+59,Bob Miller,Other,Manager,Finance,2012-07-04
+60,Grace Johnson,Female,Coordinator,human resources,2013-06-05
+61,Alice Williams,Other,supervisor,Customer Service,04/29/2022
+62,Grace Garcia,Female,Coordinator,Finance,03/19/2020
+63,Grace Miller,Female,Specialist,Sales,2022-07-13
+64,Grace Williams,Male,Coordinator,,2010-04-09
+65,Diana Jones,Male,Assistant,Operations,2019-01-22
+66,Judy Smith,Female,Team Lead,Sales,30-Sep-14
+67,Diana Brown,Female,Clerk,Sales,06/15/2012
+68,Ivan Williams,Female,Manager,IT,2016-10-02
+69,Frank Smith,Female,Assistant,Marketing,2015-09-11
+70,Alice Johnson,Male,Director,Operations,2011-08-05
+71,Alice Brown,Female,clerk,Marketing,17-Jun-11
+72,Alice Williams,Female,Clerk,Finance,06/05/2021
+73,Judy Brown,Female,Director,Marketing,16-Jan-10
+74,Diana Martinez,Female,manager,finance,2023-12-20
+75,Judy Martinez,Female,Specialist,Sales,02/07/2023
+76,Frank Jones,Female,Team Lead,Marketing,2015-02-02
+77,Frank Martinez,Male,supervisor,Legal,2014-10-21
+78,Eve Garcia,Female,Assistant, Sales ,03/02/2014
+79,Ivan Johnson,Male,Team Lead,sales,2018-08-29
+80,Eve Miller,Male,Director,,2022-02-07
+81,Grace Davis,Male,Coordinator,,2013-07-26
+82,Judy Williams,Male,,Legal,2014-10-30
+83,Heidi Jones,Male,  Associate  ,Finance,2021-06-21
+84,Judy Martinez,Other,Analyst, Customer Service ,2023-03-18
+85,Frank Martinez,Male,  Specialist  ,Legal,2021-11-15
+86,Eve Garcia,Female,Coordinator, Customer Service ,2015-08-05
+87,Judy Brown,Female,Specialist,Finance,12/06/2020
+88,Judy Garcia,Male,Analyst, Operations ,08/06/2021
+89,Alice Jones,Male,Coordinator,Operations,2013-06-10
+90,Heidi Rodriguez,Female,Clerk,Finance,2013-04-20
+91,Heidi Davis,Male,Team Lead,IT,20-Mar-16
+92,Heidi Johnson,Male,Coordinator,IT,2015-06-06
+93,Grace Johnson,Female,Director,Human Resources,2010-03-04
+94,Judy Johnson,Male,Specialist,IT,2014-10-23
+95,Judy Martinez,Male,Specialist,Sales,01/19/2013
+96,Frank Miller,Male,Assistant,Operations,12-Sep-15
+97,Diana Garcia,Male,Assistant,Human Resources,2020-01-24
+98,Ivan Miller,Male,Coordinator,Operations,2014-09-27
+99,Grace Martinez,Female,Clerk,Finance,2012-05-11
+100,Bob Williams,Male,Specialist,Marketing,2016-08-10
+101,Ivan Rodriguez,Female,Associate, Legal ,04/18/2021
+102,Eve Smith,Male,clerk,Customer Service,2017-08-01
+103,Judy Davis,Male,Specialist,Human Resources,11/07/2020
+104,Heidi Smith,Male,analyst, Human Resources ,19-Sep-13
+105,Eve Davis,Other,  Supervisor  , Customer Service ,2018-08-04
+106,Bob Brown,Other,Clerk, Customer Service ,2023-10-28
+107,Bob Johnson,Female,,IT,09-Mar-16
+108,Alice Johnson,Female,Specialist, IT ,2010-05-11
+109,Diana Brown,Female,Manager,,09/15/2021
+110,Eve Brown,Female,Director,Finance,2013-06-11
+111,Alice Williams,Male,Director, Finance ,02/19/2018
+112,Grace Williams,Male,Team Lead,Marketing,12-Jul-20
+113,Ivan Miller,Male,  Director  ,Customer Service,2012-08-14
+114,Judy Jones,Other,Manager,,08/26/2016
+115,Frank Garcia,Female,,IT,2011-10-12
+116,Alice Davis,Male,Specialist,,2014-06-25
+117,Judy Miller,Other,Associate,Operations,01/04/2018
+118,Eve Smith,Male,Specialist,Sales,2023-05-04
+119,Heidi Miller,Male,associate,Finance,09/16/2010
+120,Alice Jones,Male,Supervisor,sales,2019-02-19
+121,Frank Williams,Male,Assistant,Human Resources,03/05/2018
+122,Charlie Davis,Male,Director,IT,03/09/2010
+123,Eve Garcia,Male,specialist,Human Resources,08/15/2015
+124,Frank Smith,Male,associate,Human Resources,2018-10-11
+125,Eve Brown,Female,Clerk,Operations,2023-02-25
+126,Alice Brown,Male,Associate,IT,2015-03-27
+127,Bob Johnson,Male,Team Lead, IT ,03/09/2019
+128,Grace Smith,Male,  Specialist  ,Sales,05/03/2023
+129,Frank Davis,Male,Assistant,human resources,2022-08-12
+130,Alice Johnson,Female,Assistant,Marketing,06-Nov-17
+131,Judy Jones,Female,Assistant,Operations,2013-07-26
+132,Bob Martinez,Male,  Associate  ,Finance,03/06/2014
+133,Alice Rodriguez,Male,Manager,Customer Service,2012-08-10
+134,Frank Smith,Male,Team Lead,finance,2013-03-15
+135,Alice Martinez,Female,Manager,IT,04/18/2011
+136,Alice Jones,Male,,IT,14-May-10
+137,Eve Miller,Male,Director,Human Resources,05/03/2022
+138,Frank Brown,Female,Assistant,Marketing,2017-05-08
+139,Judy Smith,Male,team lead,Marketing,2011-10-09
+140,Charlie Martinez,Male,,Customer Service,12/29/2020
+141,Charlie Garcia,Female,  Specialist  ,human resources,2019-01-20
+142,Charlie Davis,Female,Team Lead,Human Resources,23-Nov-18
+143,Charlie Rodriguez,Female,Analyst,Sales,20-Aug-14
+144,Diana Jones,Male,Team Lead,customer service,14-Mar-17
+145,Ivan Johnson,Female,Director,operations,2021-04-22
+146,Ivan Garcia,Female,Clerk,Legal,2019-08-27
+147,Diana Garcia,Female,Clerk,Marketing,18-Feb-18
+148,Ivan Johnson,Female,Team Lead,Sales,12/05/2013
+149,Alice Martinez,Female,Analyst,Marketing,2010-02-16
+150,Alice Garcia,Female,associate,IT,2011-04-10
+151,Frank Rodriguez,Male,Associate,IT,06/14/2018
+152,Eve Williams,Male,Clerk,Finance,2023-04-06
+153,Eve Garcia,Male,Supervisor,it,2016-12-11
+154,Frank Smith,Female,  Clerk  ,sales,2010-06-10
+155,Alice Smith,Female,Clerk,Customer Service,2013-05-07
+156,Judy Smith,Male,Team Lead,Customer Service,05/09/2020
+157,Judy Johnson,Female,Specialist,marketing,2018-08-27
+158,Heidi Smith,Female,,Operations,2019-08-09
+159,Ivan Martinez,Male,Specialist,Legal,2023-05-01
+160,Ivan Jones,Male,Analyst, Human Resources ,2020-10-19
+161,Judy Johnson,Male,Analyst,Operations,2019-10-04
+162,Diana Davis,Male,Analyst,Marketing,17-Dec-11
+163,Grace Rodriguez,Male,  Assistant  ,Legal,2012-10-28
+164,Charlie Johnson,Female,Supervisor,Legal,06/02/2018
+165,Charlie Davis,Male,Manager,IT,2021-09-23
+166,Heidi Garcia,Male,Manager,Marketing,24-Dec-18
+167,Bob Rodriguez,Female,Manager,,2013-03-19
+168,Bob Davis,Male,Clerk,,2022-12-06
+169,Ivan Garcia,Male,Clerk,,2023-06-20
+170,Heidi Jones,Female,  Analyst  ,Customer Service,2023-05-22
+171,Judy Williams,Female,Director,Operations,2013-08-26
+172,Alice Davis,Male,  Assistant  ,,04/01/2012
+173,Bob Rodriguez,Male,manager,Legal,2019-12-07
+174,Frank Brown,Male,Team Lead,Marketing,2014-06-16
+175,Heidi Williams,Male,coordinator, Finance ,12/11/2010
+176,Eve Williams,Female,Manager,Legal,2015-07-26
+177,Frank Garcia,Female,Supervisor, Finance ,2015-03-28
+178,Grace Johnson,Female,Associate,Legal,2014-09-06
+179,Diana Williams,Female,Manager,Operations,2019-01-05
+180,Frank Davis,Female,, Legal ,11/30/2014
+181,Bob Jones,Male,associate,,03/11/2022
+182,Diana Miller,Male,Manager,Human Resources,09/01/2022
+183,Judy Davis,Female,,Marketing,2019-03-15
+184,Eve Rodriguez,Female,Clerk,Finance,2014-07-25
+185,Eve Martinez,Male,  Clerk  ,human resources,2013-04-29
+186,Heidi Rodriguez,Male,Associate, Human Resources ,06/10/2021
+187,Judy Miller,Male,Clerk,human resources,20-Jan-21
+188,Alice Jones,Male,Specialist,IT,2018-06-24
+189,Bob Rodriguez,Male,Director, IT ,24-Dec-10
+190,Grace Miller,Male,analyst, Marketing ,08-May-19
+191,Frank Johnson,Female,Associate,,2015-11-26
+192,Alice Rodriguez,Female,director,Finance,20-Apr-14
+193,Diana Martinez,Female,Assistant,sales,05/03/2012
+194,Frank Brown,Male,, Legal ,12-May-18
+195,Alice Martinez,Female,,customer service,2012-06-05
+196,Bob Martinez,Male,Coordinator,,2015-07-24
+197,Alice Garcia,Male,Team Lead,Sales,07/27/2018
+198,Grace Johnson,Male,supervisor,Sales,2017-08-31
+199,Charlie Miller,Male,Manager,customer service,09/03/2013
+200,Judy Rodriguez,Male,Associate,Marketing,2018-12-19
+96,Frank Miller,Male,Assistant,Operations,12-Sep-15
+16,Frank Miller,Female,Assistant,Operations,2011-08-08
+31,Grace Rodriguez,Other,associate,Sales,08/24/2012
+159,Ivan Martinez,Male,Specialist,Legal,2023-05-01
+129,Frank Davis,Male,Assistant,human resources,2022-08-12
+116,Alice Davis,Male,Specialist,,2014-06-25
+70,Alice Johnson,Male,Director,Operations,2011-08-05
+171,Judy Williams,Female,Director,Operations,2013-08-26
+175,Heidi Williams,Male,coordinator, Finance ,12/11/2010
+46,Eve Smith,Male,Manager,Legal,13-Jan-16

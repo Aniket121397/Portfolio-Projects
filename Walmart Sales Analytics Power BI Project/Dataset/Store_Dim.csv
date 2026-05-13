@@ -1,0 +1,53 @@
+Store_ID,Store_Name,City,State,Region,Store_Type
+1,Express Bazaar #1,  San Diego  ,ca,South,Hypermarket
+2,City Supermarket #2,San Antonio,TX,East,Supermarket
+3,Express Supermarket #3,San Diego,CA,South,Department Store
+4,Grand Store #4,Atlanta,GA,South,Convenience Store
+5,Value Outlet #5,Boston,MA,Central,Specialty Store
+6,City Emporium #6,Miami,FL,Central,Convenience Store
+7,Mega Store #7,Denver,CO,South,Department Store
+8,Grand Bazaar #8,Houston,tx,East,Supermarket
+9,Grand Mart #9,  Boston  ,,East,Department Store
+10,Urban Bazaar #10,Miami,FL,Central,Convenience Store
+11,Urban Center #11,Miami,FL,South,Specialty Store
+12,Grand Market #12,San Diego,CA,Central,Department Store
+13,Urban Emporium #13,Denver,co,Central,Supermarket
+14,Mega Supermarket #14,  Dallas  ,TX,Central,Convenience Store
+15,Urban Center #15,Philadelphia,PA,South,Hypermarket
+16,City Emporium #16,New York,NY,East,Hypermarket
+17,Discount Supermarket #17,  Philadelphia  ,PA,East,Supermarket
+18,Prime Bazaar #18,,CA,East,Convenience Store
+19,Value Mart #19,  Dallas  ,TX,South,Supermarket
+20,Urban Bazaar #20,,tx,East,Supermarket
+21,Local Emporium #21,miami,FL,West,Supermarket
+22,Prime Supermarket #22,Phoenix,az,Central,Hypermarket
+23,Prime Bazaar #23,San Jose,CA,Central,Supermarket
+24,Discount Outlet #24,Los Angeles, CA ,South,Department Store
+25,Urban Emporium #25,,NY,West,Department Store
+26,Local Supermarket #26,Chicago,IL,West,Supermarket
+27,Urban Center #27,Houston,TX,Central,Supermarket
+28,Discount Emporium #28,phoenix,AZ,West,Hypermarket
+29,Urban Store #29,philadelphia,PA,South,Hypermarket
+30,Mega Mart #30,Dallas,TX,Central,Hypermarket
+31,Local Center #31,Atlanta,GA,West,Supermarket
+32,City Emporium #32,Atlanta,GA,West,Convenience Store
+33,Prime Emporium #33,San Jose,,South,Convenience Store
+34,Express Store #34,Atlanta,,Central,Convenience Store
+35,Urban Outlet #35,Chicago,IL,East,Specialty Store
+36,Local Store #36,Denver,CO,East,Hypermarket
+37,Prime Bazaar #37,Phoenix,,West,Convenience Store
+38,Mega Bazaar #38,Chicago,IL,South,Department Store
+39,Discount Market #39,,FL,East,Department Store
+40,Urban Store #40,Boston,MA,West,Department Store
+41,Value Emporium #41,San Jose,CA,East,Supermarket
+42,Local Market #42,  Boston  ,MA,East,Convenience Store
+43,Urban Bazaar #43,San Jose,CA,East,Hypermarket
+44,Express Store #44,  Philadelphia  ,PA,Central,Convenience Store
+45,Express Center #45,Chicago,IL,West,Hypermarket
+46,Express Emporium #46,Los Angeles,CA,Central,Department Store
+47,Express Store #47,Chicago,IL,Central,Department Store
+48,Value Outlet #48,  Los Angeles  ,CA,West,Hypermarket
+49,Urban Mart #49,Los Angeles,CA,East,Department Store
+50,Grand Center #50,Phoenix,az,South,Convenience Store
+14,Mega Supermarket #14,  Dallas  ,TX,Central,Convenience Store
+40,Urban Store #40,Boston,MA,West,Department Store

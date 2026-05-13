@@ -1,1 +1,1 @@
-Could Not Upload Sales.xlsx file because of size issues.
+Could Not Upload Sales.csv file because of size issues.

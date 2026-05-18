@@ -26,9 +26,8 @@ This repository contains my personal and capstone projects focused on:
 ## Featured Projects
 
 ### Power BI Projects
-- Sales Performance Dashboard
-- Customer Insights Dashboard
-- Product & Regional Analysis Dashboard
+- Walmart Sales Analytics Dashboard
+- Decathlon Sales Analytics Dashboard
 
 ### Tableau Projects
 - Airbnb Data Visualization

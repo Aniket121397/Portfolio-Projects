@@ -10,7 +10,7 @@ An end-to-end Power BI dashboard analyzing Airbnb's global performance across 10
 
 ## 📌 Overview
 
-This project explores Airbnb's global footprint using two raw CSV datasets — **Listings** and **Reviews** — cleaned and transformed in Power Query, modeled with custom DAX measures, and visualized across a 3-page interactive Power BI report.
+This project explores Airbnb's global footprint using two raw CSV datasets — **Listings** and **Reviews** — transformed in Power Query, modeled with custom DAX measures, and visualized across a 3-page interactive Power BI report.
 
 The goal was to answer key business questions:
 - How has Airbnb's listing growth evolved over time, and how did COVID-19 impact it?
@@ -33,7 +33,6 @@ The goal was to answer key business questions:
 
 ## 🧹 Data Preparation (Power Query)
 
-- Cleaned and shaped both raw CSV tables for the data model
 - Built custom date-based columns from the reviews' date field:
   - **Month Number** — numeric month value used purely for correct chronological sorting of visuals
   - **Review Month** — readable month name (Jan, Feb, …) displayed on the axis, sorted by Month Number
